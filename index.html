@@ -1,97 +1,62 @@
 <!DOCTYPE html>
-
 <html lang="en">
-    <head>
-        <style>
-            body {
-                font-family: Arial, serif;
-                background-color: lightgrey;
-                margin: 0;
-            }
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tywaine | Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header>
+    <nav>
+        <div class="logo">Tywaine Peters</div>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <button class="theme-toggle">Toggle Dark Mode</button>
+    </nav>
+</header>
 
-            div {
-                background-color: white;
-                border-radius: 10px;
-                padding: 20px;
-                margin-bottom: 20px;
-            }
+<main>
+    <section id="about" class="section">
+        <h1>Hi, I'm Tywaine Peters</h1>
+        <p>I am currently attending the University of the West Indies, Mona in Jamaica with a passion for learning.</p>
+        <p>My main programming language right now is java, but I am familiar with many other languages.</p>
+        <p>These include python, C# and I am currently learning C.</p>
+    </section>
 
-            table {
-                border-collapse: collapse;
-            }
-
-            th, td {
-                padding: 8px;
-            }
-
-            th {
-                background-color: whitesmoke;
-            }
-
-            a {
-                color: #007bff;
-                text-decoration: none;
-            }
-
-            a:hover{
-                text-decoration: underline;
-            }
-
-            form {
-                max-width: 400px;
-                margin: auto;
-            }
-
-            input[type="email"],
-            textarea,
-            select {
-                width: 100%;
-                padding: 10px;
-                border: solid gray;
-            }
-
-            input[type="submit"] {
-                background-color: #007bff;
-                border: none;
-                padding: 12px 20px;
-                border-radius: 5px;
-                cursor: pointer;
-            }
-
-            input[type="submit"]:hover {
-                background-color: dodgerblue;
-            }
-
-        </style>
-        <meta charset="UTF-8">
-        <title>Tywaine's personal webpage</title>
-    </head>
-    <body>
-        <div>
-            <h1 align="center">Tywaine's personal webpage</h1><br>
-            <p align="left">content comming soon...
-            </p><br><br><br><br>
-
-        <div>
-            <h4>Contact Form</h4>
-            <form action="#" method="post">
-                <label for="email">Email:</label><br>
-                <input type="email" id="email" name="email"><br><br>
-                <label for="feedback">Feedback:</label><br>
-                <textarea id="feedback" name="feedback" rows="4"></textarea><br><br>
-                <input type="submit" value="Submit">
-            </form>
-        </div><br><br>
-
-        <div>
-            <img src="https://sta.uwi.edu/wp-content/uploads/2021/02/Regcrest-1.jpg" alt="No Image" width="75" height="75" align="right">
-
-            <h4>Useful Links</h4>
-            <ul>
-                <li><a href="https://www.w3schools.com" target="_blank">W3Schools - Web Development Tutorials</a></li>
-                <li><a href="https://leetcode.com/problemset/" target="_blank">LeetCode - Attempt Coding Problems</a></li>
-                <li><a href="https://www.codecademy.com/learn/learn-html" target="_blank">CodeAcademy - Learn Coding For Free With Codecademy</a></li>
-            </ul>
+    <section id="projects" class="section">
+        <h2>My Projects</h2>
+        <div class="projects-container">
+            <div class="project">
+                <h3>Project 1</h3>
+                <p>...</p>
+            </div>
+            <div class="project">
+                <h3>Project 2</h3>
+                <p>...</p>
+            </div>
+            <div class="project">
+                <h3>Project 3</h3>
+                <p>...</p>
+            </div>
         </div>
-    </body>
+    </section>
+
+    <section id="contact" class="section">
+        <h2>Contact Me</h2>
+        <p>If you'd like to get in touch, feel free to <a href="mailto:me@tywaine.me">email me</a>
+            or connect on <a href="https://www.linkedin.com/in/tywaine-peters-0538b3294/" target="_blank">LinkedIn</a>.
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>&copy; 2024 Tywaine Peters. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
 </html>
